@@ -104,5 +104,12 @@ $ git add .
 $ git commit -m "ng7app+bootstrap4"
 
 $ git push origin master
+error: failed to push some refs
+
+To solve this error
+$ git pull
+$ git add .
+$ git commit -m "ng7app+bootstrap4"
+$ git push -f origin master
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
