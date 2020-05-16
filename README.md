@@ -79,9 +79,13 @@ https://getbootstrap.com/docs/4.0/components/navbar/
 
 ng g c templates/navigationBar
 ng g c pages/home
-
+ng g c templates/footer
+ng g c pages/about
+ng g c pages/contact
 
 https://pixabay.com/ -- To get images
+https://fonts.google.com/  -- To get Google Fonts
+https://fontawesome.com/start  -- To get icons
 
 --------------
 Git Hub

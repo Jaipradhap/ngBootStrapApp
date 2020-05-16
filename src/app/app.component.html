@@ -3,7 +3,14 @@
 <fa-icon [icon]="faAdIcon" size="10x"></fa-icon>
 <fa-icon [icon]="faFilmIcon" size="10x"></fa-icon>
 
-<app-navigation-bar></app-navigation-bar>
-<app-home></app-home>
+<div class="main-veiw">
+    <app-navigation-bar></app-navigation-bar>
+    <!-- <app-home></app-home> -->
+    <router-outlet></router-outlet>
+</div>
+<!-- <app-about></app-about>
+<app-contact></app-contact> -->
 
-<router-outlet></router-outlet>
+<app-footer></app-footer>
+
+
